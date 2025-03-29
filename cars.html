@@ -1,0 +1,238 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-padding-top: 2rem;
+  list-style: none;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+  .heading{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin: 20px 0;
+  }
+  .services-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+    gap: 20px;
+    margin-top:2rem;
+  }
+  .services-container .box{
+    padding: 10px;
+    border-radius: 1rem;
+    box-shadow: 1px 4px 41px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .services-container .box .box-img{
+    width: 100%;
+    height: 200px;
+  }
+  .services-container .box .box-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    object-fit: cover;
+    object-position: center;
+
+  }
+  .services-container .box p{
+    border: 1px solid hsl(210, 8%, 26%);
+    width: 55px;
+    padding-left: 5px;
+    color: hsl(210, 8%, 26%);
+    border-radius: 5px;
+    font-size: 0.8rem;
+    margin-top: 10px;
+  }
+  .services-container .box h3{
+    font-weight: 500;
+  }
+  .services-container .box h2{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color:  #008000;
+  }
+  .services-container .box h2 span{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #7b80b8;
+  }
+  .btn{
+    background-color: #082a61;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+  }
+  .btn:hover{
+    background-color:  #008000;
+    color: #fff;
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  }
+</style>
+<section class="services" id="services">
+  <div>
+    <h1 class="heading">Available cars</h1>
+  </div>
+  <div class="services-container">
+    <div class="box">
+      <div class="box-img">
+        <img src="assets/1.png"alt="Car 1" />
+      </div>
+      <p>2017</p>
+      <h3>2016 Ford Shelby Mustang</h3>
+      <h2>₹5,500<span>/hour</span></h2>
+      <button class="btn">Rent Now</button>
+    </div>
+    <div class="box">
+      <div class="box-img">
+        <img src="assets/2.png"alt="Car 1" />
+      </div>
+      <p>2020</p>
+      <h3>2019 Rolls-Royce Cullinan</h3>
+      <h2>₹12,000	<span>/hour</span></h2>
+      <button class="btn">Rent Now</button>
+    </div>
+    <div class="box">
+      <div class="box-img">
+        <img src="assets/3.png"alt="Car 1" />
+      </div>
+      <p>2024</p>
+      <h3>2024 Mercedes-AMG CLE53</h3>
+      <h2>₹6,800	<span>/hour</span></h2>
+      <button class="btn">Rent Now</button>
+    </div>
+    <div class="box">
+      <div class="box-img">
+        <img src="assets/4.png"alt="Car 1" />
+      </div>
+      <p>2023</p>
+      <h3>2023 BMW M4 GT4
+      </h3>
+      <h2>₹7,500	<span>/hour</span></h2>
+      <button class="btn">Rent Now</button>
+    </div>
+    <div class="box">
+      <div class="box-img">
+        <img src="assets/5.png"alt="Car 1" />
+      </div>
+      <p>2018</p>
+      <h3>2017 Nissan GT-R Nismo</h3>
+      <h2>₹8,000	<span>/hour</span></h2>
+      <button class="btn">Rent Now</button>
+    </div>
+    <div class="box">
+      <div class="box-img">
+        <img src="assets/6.png"alt="Car 1" />
+      </div>
+      <p>2019</p>
+      <h3>2018 Dodge Challenger</h3>
+      <h2>₹4,500	<span>/hour</span></h2>
+      <button class="btn">Rent Now</button>
+    </div>
+    <div class="box">
+      <div class="box-img">
+        <img src="assets/7.png"alt="Car 1" />
+      </div>
+      <p>2016</p>
+      <h3>2015 Jeep Wrangler</h3>
+      <h2>₹3,000	<span>/hour</span></h2>
+      <button class="btn">Rent Now</button>
+    </div>
+    <div class="box">
+      <div class="box-img">
+        <img src="assets/8.png"alt="Car 1" />
+      </div>
+      <p>2025</p>
+      <h3>2025 Land Rover Defender</h3>
+      <h2>₹4,200<span>/hour</span></h2>
+      <button class="btn">Rent Now</button>
+    </div>
+    <div class="box">
+      <div class="box-img">
+        <img src="assets/9.png"alt="Car 1" />
+      </div>
+      <p>2021</p>
+      <h3>2020 Toyota Land Cruiser</h3>
+      <h2>₹3,800	<span>/hour</span></h2>
+      <button class="btn">Rent Now</button>
+    </div>
+    <div class="box">
+      <div class="box-img">
+        <img src="assets/10.png"alt="Car 1" />
+      </div>
+      <p>2020</p>
+      <h3>2020 Mini John Cooper Works GP</h3>
+      <h2>₹3,200<span>/hour</span></h2>
+      <button class="btn">Rent Now</button>
+    </div>
+    <div class="box">
+      <div class="box-img">
+        <img src="assets/11.png"alt="Car 1" />
+      </div>
+      <p>2020</p>
+      <h3>2019 Suzuki Swift Sport Katana</h3>
+      <h2>₹1,800<span>/hour</span></h2>
+      <button class="btn">Rent Now</button>
+    </div>
+    <div class="box">
+      <div class="box-img">
+        <img src="assets/12.png"alt="Car 1" />
+      </div>
+      <p>2020</p>
+      <h3>2019 Hyudai i20</h3>
+      <h2>₹1,500<span>/hour</span></h2>
+      <button class="btn">Rent Now</button>
+    </div>
+    <div class="box">
+      <div class="box-img">
+        <img src="assets/13.png"alt="Car 1" />
+      </div>
+      <p>2024</p>
+      <h3>2023 Tata Tiago</h3>
+      <h2>₹900<span>/hour</span></h2>
+      <button class="btn">Rent Now</button>
+    </div>
+    <div class="box">
+      <div class="box-img">
+        <img src="assets/14.png"alt="Car 1" />
+      </div>
+      <p>2020</p>
+      <h3>2021 Tata Punch</h3>
+      <h2>₹1,000	<span>/hour</span></h2>
+      <button class="btn">Rent Now</button>
+    </div>
+    <div class="box">
+      <div class="box-img">
+        <img src="assets/15.png"alt="Car 1" />
+      </div>
+      <p>2023</p>
+      <h3>2022 Toyota innova crysta</h3>
+      <h2>₹1,800	<span>/hour</span></h2>
+      <button class="btn">Rent Now</button>
+    </div>
+    <div class="box">
+      <div class="box-img">
+        <img src="assets/16.png"alt="Car 1" />
+      </div>
+      <p>2020</p>
+      <h3>Mahindra Scorpio N</h3>
+      <h2>₹2,200	<span>/hour</span></h2>
+      <button class="btn">Rent Now</button>
+    </div>
+  </div>
+  </section>
+      
+    
